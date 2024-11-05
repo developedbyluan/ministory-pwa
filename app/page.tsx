@@ -63,7 +63,7 @@ export default function Component() {
   };
 
   if (isInstalled) {
-    return null; // Don't show anything if the app is already installed
+    return <h1>Hello World</h1>;
   }
 
   return (
